@@ -12,6 +12,7 @@ const sveltePromiseWorker = new PromiseWorker(new svelteWorker())
 // Based on https://github.com/pngwn/REPLicant & the Svelte REPL package (https://github.com/sveltejs/sites/tree/master/packages/repl)
 
 const CDN_URL = 'https://cdn.jsdelivr.net/npm' // or 'https://unpkg.com'
+//const CDN_URL =  'https://unpkg.com'
 
 registerPromiseWorker(rollup_worker)
 async function rollup_worker({ component, hydrated, buildStatic = true, format = 'esm' }) {
@@ -116,8 +117,8 @@ async function rollup_worker({ component, hydrated, buildStatic = true, format =
 					name: 'repl-plugin',
 					async resolveId(importee, importer) {
 
-						console.log(`${importee} = ${importer}`)
-						if (importee.includes('@iconify/svetle')) {
+						if (importee?.includes('iconify')) {
+							return `${CDN_URL}/${importee}@2.2.1/dist/Icon.svelte`
 							importee = importee.replace('@iconify/svetle', '@iconify/svelte@2.2.1')
 						}
 
