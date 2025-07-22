@@ -3,7 +3,7 @@
 	import { fade } from 'svelte/transition'
 	import { enhance } from '$app/forms'
 	import ServerLogo from '$lib/ui/ServerLogo.svelte'
-	import Icon from '@iconify/svelte'
+	import Icon from '@iconify/svelte@3.1.6'
 
 	export let form
 

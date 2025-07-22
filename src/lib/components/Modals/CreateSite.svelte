@@ -5,7 +5,7 @@
 	import PrimaryButton from '$lib/ui/PrimaryButton.svelte'
 	import { validate_url } from '$lib/utils'
 	import { validate_site_structure_v2 } from '@primocms/builder'
-	import Icon from '@iconify/svelte'
+	import Icon from '@iconify/svelte@3.1.6'
 	import { buildStaticPage } from '@primocms/builder'
 	import Themes from '../Themes.svelte'
 

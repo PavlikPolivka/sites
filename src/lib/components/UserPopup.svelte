@@ -1,7 +1,7 @@
 <script>
 	import _ from 'lodash-es'
 	import { fade } from 'svelte/transition'
-	import Icon from '@iconify/svelte'
+	import Icon from '@iconify/svelte@3.1.6'
 	import { clickOutside } from '$lib/utils'
 	import Letter from '$lib/ui/Letter.svelte'
 	import { page } from '$app/stores'

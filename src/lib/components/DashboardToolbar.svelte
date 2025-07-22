@@ -3,7 +3,7 @@
 	import { show } from '$lib/components/Modal.svelte'
 	import { page } from '$app/stores'
 	import ServerLogo from '$lib/ui/ServerLogo.svelte'
-	import Icon from '@iconify/svelte'
+	import Icon from '@iconify/svelte@3.1.6'
 </script>
 
 <header role="navigation" aria-label="main navigation">

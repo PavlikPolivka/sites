@@ -1,7 +1,7 @@
 <script>
   import _ from 'lodash-es'
   import { fade } from 'svelte/transition'
-  import Icon from '@iconify/svelte'
+  import Icon from '@iconify/svelte@3.1.6'
   import { clickOutside } from '$lib/utils'
   import IconButton from '$lib/components/IconButton.svelte'
   // import { toast } from '@zerodevx/svelte-toast';

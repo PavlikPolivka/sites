@@ -1,6 +1,6 @@
 <script>
 	import { setContext } from 'svelte'
-	import { loadIcons, enableCache } from '@iconify/svelte'
+	import { loadIcons, enableCache } from '@iconify/svelte@3.1.6'
 	import '$lib/assets/reset.css'
 	import { browser } from '$app/environment'
 	import { onMount } from 'svelte'
