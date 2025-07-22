@@ -1,5 +1,5 @@
 <script>
-  import Icon from '@iconify/svelte@2.2.1'
+  import Icon from '@iconify/svelte'
   import { createEventDispatcher } from 'svelte'
   import _ from 'lodash-es'
   import axios from 'axios'
