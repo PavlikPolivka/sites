@@ -116,6 +116,7 @@ async function rollup_worker({ component, hydrated, buildStatic = true, format =
 					name: 'repl-plugin',
 					async resolveId(importee, importer) {
 
+						console.log(`${importee} = ${importer}`)
 						if (importee.includes('@iconify/svetle')) {
 							importee = importee.replace('@iconify/svetle', '@iconify/svelte@2.2.1')
 						}
