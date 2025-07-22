@@ -1,6 +1,6 @@
 <script>
   import { tick, getContext } from 'svelte'
-  import Icon from '@iconify/svelte@3.1.6'
+  import Icon from '@iconify/svelte@2.2.1'
   import { page } from '$app/stores'
   import DashboardToolbar from '$lib/components/DashboardToolbar.svelte'
   import SiteThumbnail from '$lib/components/SiteThumbnail.svelte'

@@ -1,5 +1,5 @@
 <script>
-  import Icon from '@iconify/svelte@3.1.6'
+  import Icon from '@iconify/svelte@2.2.1'
   import { createEventDispatcher } from 'svelte'
   const dispatch = createEventDispatcher()
 
